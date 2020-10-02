@@ -1,0 +1,16 @@
+answer = "NO"
+while answer == "NO":
+  print("Welcome to the game!")
+  age = int(input("How old are you?"))
+  print(age)
+  gender = str(input("Are you male or female?"))
+  print(gender)
+  email = str(input("What is your e-mail address?"))
+  print(email)
+  pname = str(input("What is your name?"))
+  print(pname)
+  answer = str(input("Is this information correct? Yes or No")).upper()
+  if answer == "YES":
+    print(age ,gender, email, pname)
+  else:
+    print("Re-enter your information.")
