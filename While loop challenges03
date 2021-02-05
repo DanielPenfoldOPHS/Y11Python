@@ -1,0 +1,15 @@
+num = int(input('Enter a number.'))
+number = num
+looping = 'y'
+
+while looping != 'n':
+    number1 = int(input('Enter another number.'))
+    print('Would you like to enter another number.')
+    looping = input('Please respond y or n.').upper()
+    total = number + number1 + looping1
+    if looping == 'y':
+       looping1 = int(input('Enter another number.')) 
+       
+    else:
+        break
+print(total)
