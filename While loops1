@@ -1,0 +1,7 @@
+total = 0
+while total <= 50:
+    number2 = int(input('Pick a number.'))
+    total1 = total + number2
+    print('the total is', total1)
+    if total1 > 50:
+        break
