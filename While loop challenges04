@@ -1,0 +1,8 @@
+total = 0
+answer = "y"
+while answer == "y":
+  name = str(input("Who would you like to invite to your party!"))
+  print(name, "has now been invited.")
+  total = total + 1
+  answer = str(input("Do you want to add someone else, Y or N")).lower()
+print("You have invited", total, "people.")
