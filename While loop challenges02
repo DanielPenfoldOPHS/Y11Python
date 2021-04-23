@@ -1,3 +1,6 @@
+#Daniel Penfold
+#While loop challenges02
+
 number = 0
 while number <= 5:
     number1 = int(input('Enter a number.'))
