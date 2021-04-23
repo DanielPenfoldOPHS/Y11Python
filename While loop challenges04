@@ -1,3 +1,6 @@
+#Daniel Penfold
+#While loop challenges04
+
 total = 0
 answer = "y"
 while answer == "y":
