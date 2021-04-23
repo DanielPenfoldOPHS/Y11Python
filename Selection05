@@ -1,3 +1,6 @@
+#Daniel Penfold
+#Selection05
+
 rain = str(input("Is it raining?")).lower()
 if rain == "yes":
   windy = str(input("Is it windy?")).lower()
