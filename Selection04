@@ -1,3 +1,6 @@
+#Daniel Penfold
+#Selection04
+
 colour = str(input('Enter your favourite colour.')).title()
 if colour == 'Red':
     print("I like red too.")
