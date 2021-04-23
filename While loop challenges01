@@ -1,3 +1,6 @@
+#Daniel Penfold
+#While loop challenges01
+
 total = 0
 while total <= 50:
     number2 = int(input('Pick a number.'))
